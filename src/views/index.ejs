@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drums</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body> 
+    <h1>Drums</h1>
+
+    <!-- un contenedor que envuelve cada key -->
+    <div class="keys">
+      
+      <!-- cada key -->
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">hihat closed</span>
+      </div>
+      <div data-key="87" class="key">
+        <kbd>W</kbd>
+        <span class="sound">hihat open</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">Floor-Tom</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">Medium-Tom</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">Small-Tom</span>
+      </div>
+      <div data-key="73" class="key">
+        <kbd>I</kbd>
+        <span class="sound">snare1</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">snare2</span>
+      </div>
+      <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">Crash-Cymbal</span>
+      </div>
+      <div data-key="85" class="key">
+        <kbd>U</kbd>
+        <span class="sound">Splash-Cymbal</span>
+      </div>
+    </div>
+
+    <!-- audios descargados -->
+    <audio data-key="65" src="sounds/hi-hat-closed.wav"></audio>
+    <audio data-key="87" src="sounds/Hi-Hat-Open.wav"></audio>
+    <audio data-key="68" src="sounds/Floor-Tom-Drum.wav"></audio>
+    <audio data-key="70" src="sounds/Medium-Tom-Drum.wav"></audio>
+    <audio data-key="74" src="sounds/Small-Tom-Drum.wav"></audio>
+    <audio data-key="73" src="sounds/snare1.wav"></audio>
+    <audio data-key="76" src="sounds/snare2.wav"></audio>
+    <audio data-key="72" src="sounds/Crash-Cymbal.wav"></audio>
+    <audio data-key="85" src="sounds/Splash-Cymbal.wav"></audio>
+
+    <!-- capturo el script donde voy a darle las funciones -->
+    <script src="javascripts/drums.js"></script>
+
+  </body>
+</html>
