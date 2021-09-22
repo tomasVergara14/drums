@@ -1,6 +1,6 @@
 window.addEventListener("keydown", function(e){
+    
     //cada key tiene su code y el objeto evento brinda esa info
-
     //buscar si hay un elemento audio en la pagina que tenga el mismo data-key que el keycode
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
     
