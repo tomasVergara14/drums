@@ -4,9 +4,6 @@ body {
   background-image: url("https://cdn.pixabay.com/photo/2014/05/28/15/10/eletronica-356598_960_720.jpg");
   background-repeat: no-repeat;
 }
-a {
-  color: #00B7FF;
-}
 .keys{
   display: flex;
   flex-direction: column;
